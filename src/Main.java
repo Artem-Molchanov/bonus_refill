@@ -13,7 +13,8 @@ public class Main {
         }
         int totalSum = currentAccountSum + addCash + bonus;
 
-        System.out.println(totalSum);
+        System.out.println("Итоговый счет: " + totalSum);
+        System.out.println("в том числе, бонусных рублей: " + bonus);
 
     }
 
